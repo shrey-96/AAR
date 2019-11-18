@@ -1,4 +1,4 @@
-package com.shrey.app.ws;
+package com.shrey.app.ws.io.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

@@ -10,8 +10,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.shrey.app.ws.UserRepository;
 import com.shrey.app.ws.io.entity.UserEntity;
+import com.shrey.app.ws.io.repositories.UserRepository;
 import com.shrey.app.ws.service.UserService;
 import com.shrey.app.ws.shared.Utils;
 import com.shrey.app.ws.shared.dto.UserDto;
